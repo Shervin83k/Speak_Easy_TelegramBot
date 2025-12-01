@@ -1,0 +1,60 @@
+{
+    "language": {
+        "select": "Please select your preferred language:",
+        "changed": "Language updated successfully."
+    },
+    "menu": {
+        "main": {
+            "welcome": "✨ *Text-to-Speech Converter*\n\nTransform your text into clear audio with adjustable playback speeds.",
+            "convert_text": "Convert Text",
+            "help": "Help Guide",
+            "change_language": "Change Language"
+        }
+    },
+    "text_input": {
+        "prompt": "Please enter the text you'd like to convert:",
+        "received": "Text received ({char_count} characters)",
+        "choose_speed": "Select your preferred playback speed:",
+        "too_long": "The text exceeds the maximum length ({current}/{max} characters). Please shorten it.",
+        "invalid": "I can only process text containing standard English characters. Please try again with different text."
+    },
+    "speed": {
+        "select": "Playback Speed:",
+        "invalid": "Please select a valid speed option."
+    },
+    "audio": {
+        "generating": "Creating your audio...",
+        "sending": "Preparing to send...",
+        "success": "Your audio is ready!",
+        "failed": "I couldn't process that text. Please try with different content.",
+        "caption": "Audio | Speed: {speed}x"
+    },
+    "batch": {
+        "prompt": "Please enter a batch of texts separated by new lines:",
+        "max_size": 5
+    },
+    "continuous_mode": {
+        "next_action": "What would you like to do next?",
+        "send_next": "Please enter your next text:",
+        "invalid_input": "Please use the options below or enter text."
+    },
+    "errors": {
+        "unexpected": "Something went wrong. Please try again.",
+        "rate_limit": "Please slow down a bit between requests."
+    },
+    "buttons": {
+        "continue": "Continue",
+        "stop": "Finish",
+        "cancel": "Cancel"
+    },
+    "help": {
+        "title": "📖 Text-to-Speech Guide",
+        "features": "✨ *What I can do:*\n• Convert text to audio\n• Adjust playback speed\n• Process multiple texts\n• Remember your preferences",
+        "commands": "🔧 *Available Commands:*\n/start - Begin a new session\n/help - View this guide\n/cancel - Return to main menu\n/language - Switch interface language"
+    },
+    "quota": {
+        "remaining": "Conversions remaining today: {remaining}/{total}",
+        "exceeded": "You've reached today's limit ({used}/{total}). Please try again tomorrow.",
+        "reset_time": "Daily limits refresh at midnight UTC"
+    }
+}
