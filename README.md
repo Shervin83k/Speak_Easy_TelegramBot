@@ -1,4 +1,4 @@
-# TTV Bot v2
+# Speak_Easy_TelegramBot
 
 A Telegram bot for text-to-speech conversion, batch audio processing, and seamless multi-language support. Designed for efficiency, reliability, and extensibility.
 
@@ -44,7 +44,7 @@ A Telegram bot for text-to-speech conversion, batch audio processing, and seamle
 - FFMPEG installed (included in `src/ffmpeg`)
 
 ### Project Structure
-TTV_bot_version2/
+Speak_Easy_TelegramBot/
 ├── src/
 │   ├── bot.py                 # Bot entry point
 │   ├── config/                # Constants and configuration
@@ -60,15 +60,3 @@ TTV_bot_version2/
 ├── tests/                     # Full pytest suite
 ├── requirements.txt           # Dependencies
 └── install_ffmpeg.bat         # Setup script for Windows
-
-### Quick Setup
-```bash
-git clone https://github.com/Shervin83k/TTV_bot_version2
-cd TTV_bot_version2/src
-python -m venv venv
-# Activate virtual environment
-# Windows:
-venv\Scripts\activate
-# Linux/macOS:
-source venv/bin/activate
-pip install -r ../requirements.txt
